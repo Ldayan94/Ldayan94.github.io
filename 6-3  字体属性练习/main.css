@@ -1,0 +1,20 @@
+h1 {
+	font-family: 微软雅黑;
+	font-size: 40px;
+	font-weight: 80;
+}
+p {
+	text-indent: 2em;
+	font-size: 20px;
+	font-family: 黑体;
+	line-height: 1.5;
+}
+.noindent {
+	text-indent: 0em;
+}
+#ly {
+	text-decoration: underline;
+	color: purple;
+	letter-spacing: 2px;
+	line-height: 2.5;
+}
