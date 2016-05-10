@@ -1,0 +1,425 @@
+body {
+    background: #212121;
+}
+
+
+/*导航条样式*/
+
+.main {
+    width: 1275px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 50px;
+}
+
+div.nav h1 {
+    float: left;
+    font-size: 22px;
+    font-family: 黑体;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    padding-left: 55px;
+}
+
+div.nav ul {
+    float: right;
+    font-family: 微软雅黑;
+}
+
+div.nav ul li {
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+div.nav ul li a {
+    display: block;
+    text-align: center;
+    width: 100px;
+    color: #808388;
+    text-decoration: none;
+}
+
+div.nav ul a:hover {
+    color: red;
+    border-bottom: 4px red solid;
+}
+
+li.login {
+    background-image: url(img/user.png);
+    background-repeat: no-repeat;
+    background-position: 30px 5px;
+    padding-left: 25px;
+}
+
+div.nav ul .login a {
+    color: red;
+}
+
+
+/*导航条样式结束*/
+
+div.info {
+
+    height: 688px;
+    width: 1275px;
+    overflow: hidden;
+    background-image: url(img/info.png);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.info div {
+    margin-left: 150px;
+    margin-top: 260px;
+}
+
+div.info h2 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+div.info p {
+    font-family: 楷体;
+    font-size: 20px;
+}
+
+p.go {
+    font-family: 楷体;
+    font-size: 40px;
+    height: 65px;
+    width: 330px;
+    line-height: 65px;
+    background-color: #E8504F;
+    text-align: center;
+    margin-top: 65px;
+}
+
+
+/*公司理念介绍区域样式*/
+
+.slogan {
+    height: 250px;
+    padding: 40px 0;
+}
+
+.slogan .sblock {
+    width: 316px;
+    text-align: center;
+    float: left;
+}
+
+.sblock p {
+    margin-top: 36px;
+    font-size: 14px; 
+    padding: 5px 70px;
+    border-right: 2px #ededed solid;
+}
+
+div.sblock:last-child p {
+    border-right: none;
+}
+/*关于新世界*/
+#section-1 .mes{
+     position: absolute;
+     top: 40px;
+     left: 12px;
+ }
+ #section-1 .mes p{
+     font-size: 22px;
+     color: #fff;
+     margin: 0;
+ }
+ #section-1 .mes p:first-child{
+     font-family: Arial;
+     font-size: 60px;
+     margin-bottom: 20px;
+     letter-spacing: 3px;
+ }
+ #section-1 .mes p:last-of-type{
+     margin-bottom: 60px;
+ }
+ #section-1 .mes span{
+     width: 300px;
+     height: 60px;
+     display: inline-block;
+     line-height: 60px;
+     text-align: center;
+     font-size: 28px;
+     color: #fff;
+     background: #E53C3C;
+     cursor: pointer;
+     
+     -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
+ }
+ #section-1 .mes span:hover{
+     background: #E31212;
+     border-radius: 3px;
+ }
+
+
+
+
+ #section-2{
+     width: 100%;
+     height: 240px;
+     font-size: 0;
+ }
+ #section-2 .cell{
+     width: 25%;
+     display: inline-block;
+     position: relative;
+     top: 0;
+ }
+ #section-2 .cell .img{
+     width: 100%;
+     height: 130px;
+     display: inline-block;
+     line-height: 130px;
+     text-align: center;
+ }
+ #section-2 .cell .img img{
+     position: relative;
+     top: 30px;
+ }
+ #section-2 .cell .mes{
+     width: 100%;
+     height: 50px;
+     font-size: 13px;
+     color: #534141;
+     text-align: center;
+     box-sizing: border-box;
+     border-right: 2px solid #534141;
+     
+     -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
+ }
+ #section-2 .cell:hover .mes{
+     color: #BE4F48;
+ }
+ #section-2 .cell:last-child .mes{
+     border:none;
+ }
+ #section-3{
+     width: 100%;
+     height: 400px;
+     background: #EDEAEA;
+     text-align: center;
+ }
+ #section-3 .img{
+     position: relative;
+     top: 80px;
+ }
+ #section-3 .mes{
+     font-size: 50px;
+     color: #534141;
+     
+     position: relative;
+     top: 100px;
+ }
+ #section-4{
+     width: 100%;
+     height: 300px;
+     padding-top: 80px;
+     box-sizing: border-box;
+     text-align: center;
+     background: url(../images/pic02.jpg);
+     background-size: cover;
+ }
+ #section-4 .mes p{
+     color: #fff;
+     margin: 0;
+ }
+ #section-4 .mes p:first-child{
+     font-size: 22px;
+ }
+ #section-4 .mes p:last-child{
+     font-size: 13px;
+ }
+ #section-4 .mes span{
+     color: #fff;
+     display: inline-block;
+     width: 30px;
+     height: 20px;
+     margin-top: 10px;
+     border-top: 2px solid #fff;
+     
+     -webkit-transition: width 0.4s ease-in-out;
+     -moz-transition: width 0.4s ease-in-out;
+     transition: width 0.4s ease-in-out;
+ }
+ #section-4 .mes span:hover{
+     width: 300px;
+ }
+ #section-4 .options{
+     height: 36px;
+ }
+ #section-4 input[type="radio"]{
+     width: 240px;
+     height: 36px;
+     margin: 0 10px;
+     cursor: pointer;
+     opacity: 0;
+     position: relative;
+     top: 47px;
+     z-index: 10;
+ }
+ #section-4 .options .select{
+     width: 240px;
+     height: 36px;
+     margin: 0 10px;
+     
+     font-size: 14px;
+     line-height: 36px;
+     text-align: left;
+     color: #B3B3B3;
+     
+     display: inline-block;
+     position: relative;
+     
+     box-sizing: border-box;
+     border: 1px solid #C6B3AF;
+     
+     background: url(../images/icon-7.png) no-repeat 210px 8px,#fff;
+     background-size: 20px;
+ }
+ #section-4 .options .select:last-of-type{
+     visibility: hidden;
+ }
+ #section-4 .options .select span{
+     margin-left: 10px;
+ }
+ #section-4 .options .select .option{
+     width: 240px;
+     background-color: #E3E3E5;
+     position: absolute;
+     z-index: 10;
+     display: none;
+     left: -2px;
+     top: 34px;
+ }
+ #section-4 input[type="radio"]:nth-of-type(1):checked~.options .select,
+ #section-4 input[type="radio"]:nth-of-type(2):checked~.options .select{
+     top: -1px;
+ }
+ #section-4 input[type="radio"]:nth-of-type(1):checked~.options .select-1{
+     border: 2px solid #AE7271;
+     border-bottom-width: 0;
+ }
+ #section-4 input[type="radio"]:nth-of-type(1):checked~.options .select-1 .option{
+     display: block;
+ }
+ #section-4 input[type="radio"]:nth-of-type(2):checked~.options .select-2{
+     border: 2px solid #AE7271;
+     border-bottom-width: 0;
+ }
+ #section-4 input[type="radio"]:nth-of-type(2):checked~.options .select-2 .option{
+     display: block;
+ }
+ #section-4 input[type="radio"]:nth-of-type(3):checked~.options .select-3{
+     border: 1px solid #C6B3AF;
+ }
+ #section-4 .options .select .option ul{
+     margin: 0;
+     padding: 0;
+     width: 240px;
+     box-sizing: border-box;
+     border: 2px solid #AE7271;
+     border-top-width: 0;
+ }
+ #section-4 .options .select .option ul li{
+     height: 32px;
+     line-height: 32px;
+     text-align: left;
+     padding-left: 40px;
+     list-style: none;
+     cursor: pointer;
+ }
+ #section-4 .options .select .option ul li:hover{
+     background: url(../images/icon-8.png) no-repeat 10px 8px,#BF4E48;
+     background-size: 20px;
+     color: #fff;
+ }
+ #section-4 input[type="submit"]{
+     width: 240px;
+     height: 36px;
+     line-height: 36px;
+     font-size: 16px;
+     margin: 0 10px;
+     border: 0;
+     outline: 0;
+     background-color: #BE4F48;
+     color: #fff;
+     letter-spacing: 30px;
+     display: inline-block;
+     cursor: pointer;
+     position: relative;
+     top: 36px;
+     
+     -webkit-transition: background-color 0.4s ease-in-out;
+     -moz-transition: background-color 0.4s ease-in-out;
+     transition: background-color 0.4s ease-in-out;
+ }
+ #section-4 input[type="submit"]:hover{
+     background-color: #E31212;
+     border-radius: 3px;
+ }
+ #section-5{
+     width: 100%;
+     height: 500px;
+     background-color: #EDEAEA;
+     text-align: center;
+     font-size: 0;
+ }
+ #section-5 .cell{
+     display: inline-block;
+     width: 20%;
+     height: 400px;
+     position: relative;
+     top: 50px;
+     box-sizing: border-box;
+ }
+ #section-5 .cell .img{
+     width: 100%;
+     height: 320px;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+ #section-5 .cell .img img{
+     height: 300px;
+     cursor: pointer;
+ }
+ #section-5 .cell .mes{
+     width: 100%;
+     height: 80px;
+     box-sizing: border-box;
+ }
+ #section-5 .cell .mes p:first-child{
+     font-size: 14px;
+     color: #44403F;
+     margin: 0;
+ }
+ #section-5 .cell .mes p:last-child{
+     font-size: 12px;
+     color: #B3AFAC;
+ }
+ #section-5 .cell:nth-child(2)>.mes{
+     padding-top: 30px;
+  }
+  #section-5 .cell:nth-child(2)>.mes p:first-child{
+      font-size: 24px;
+ +    text-indent: 30px;
+      letter-spacing: 30px;
+ -    text-indent: 15px;
+  }
+  #section-5 .cell:nth-child(2)>.mes p:last-child{
+      margin: 0;
